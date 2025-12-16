@@ -1,0 +1,65 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+.header h1 {
+  margin: 0;
+}
+
+.api-docs {
+  padding: 20px;
+}
+
+.api-docs h2 {
+  margin-top: 0;
+}
+
+.api-endpoint {
+  margin-bottom: 20px;
+  padding: 20px;
+  border-bottom: 1px solid #ccc;
+}
+
+.api-endpoint:last-child {
+  border-bottom: none;
+}
+
+.api-method {
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+.api-url {
+  font-family: monospace;
+}
+
+.api-description {
+  margin-bottom: 10px;
+}
+
+.response-code {
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+.response-message {
+  font-family: monospace;
+}
